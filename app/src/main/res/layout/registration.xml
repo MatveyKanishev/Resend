@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите имя"
+        android:id="@+id/login"
+        android:gravity="center"
+        android:layout_above="@id/password"
+        android:background="#9A9A9A"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="7dp"
+
+
+        />
+
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="#9A9A9A"
+        android:padding="10dp"
+        android:hint="введите пароль"
+        android:textColor="#FFFFFF"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:layout_margin="7dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="войти"
+        android:layout_below="@id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="22dp"
+        android:id="@+id/enter"
+
+        />
+    <LinearLayout
+        android:layout_below="@id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_margin="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_margin="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_margin="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
